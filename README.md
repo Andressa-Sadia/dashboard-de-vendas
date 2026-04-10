@@ -1,15 +1,45 @@
-# 📊 Sales Dashboard
+# 📊 Dashboard de Vendas
 
-Dashboard de vendas moderno e responsivo construído com React + Recharts.
+Este projeto consiste na criação de um dashboard interativo de vendas, com o objetivo de transformar dados brutos em informações visuais claras e estratégicas para apoiar a tomada de decisão.
 
-## 🚀 Tecnologias
+## 🎯 Objetivo
 
-- **React 18** — UI framework
+Organizar, tratar e visualizar dados de vendas de forma eficiente, permitindo a análise de desempenho comercial por diferentes perspectivas, como período, região, vendedor e categoria de produto.
+
+## 🧩 Funcionalidades
+
+- Exibição de KPIs principais (faturamento total, quantidade de vendas, ticket médio e crescimento)
+- Análise de faturamento ao longo do tempo
+- Comparação com metas mensais
+- Visualização de vendas por região
+- Ranking de produtos por receita
+- Participação de vendas por categoria
+- Filtros interativos de período (1º Semestre, 2º Semestre, Ano todo)
+- Tabela detalhada com os dados de vendas e ordenação por coluna
+
+## 🛠️ Tecnologias utilizadas
+
+- **React 18** — UI framework (JavaScript)
 - **Recharts** — Gráficos interativos
 - **Lucide React** — Ícones
 - **Vite** — Build tool
 
-## 📦 Instalação
+## 📈 Diferenciais do projeto
+
+- Estrutura organizada em componentes React reutilizáveis
+- Interface moderna, intuitiva e responsiva (mobile-friendly)
+- Dados fictícios já tratados para simulação de cenário real
+- Aplicação de conceitos de Business Intelligence (BI)
+- Tooltips customizados e animações nos gráficos
+
+## 🚀 Possíveis melhorias
+
+- Integração com banco de dados real
+- Atualização automática dos dados
+- Implementação de autenticação de usuários
+- Exportação de relatórios em PDF
+
+## 📦 Como rodar o projeto
 
 ```bash
 # 1. Clone o repositório
@@ -21,46 +51,10 @@ npm install
 
 # 3. Rode em desenvolvimento
 npm run dev
-
-# 4. Build para produção
-npm run build
 ```
 
 Acesse: [http://localhost:5173](http://localhost:5173)
 
-## 📁 Estrutura do Projeto
+---
 
-```
-dashboard-de-vendas/
-├── src/
-│   ├── components/
-│   │   ├── KpiCard.jsx          # Cards de métricas
-│   │   ├── RevenueChart.jsx     # Gráfico de área (Receita vs Meta)
-│   │   ├── CategoryChart.jsx    # Gráfico de pizza (categorias)
-│   │   ├── DailySalesChart.jsx  # Gráfico de barras (vendas diárias)
-│   │   ├── RegionChart.jsx      # Gráfico radar (regiões)
-│   │   └── TopProducts.jsx      # Tabela de produtos
-│   ├── data/
-│   │   └── mockData.js          # Dados simulados
-│   ├── utils/
-│   │   └── formatters.js        # Formatação de moeda/números
-│   ├── App.jsx                  # Componente raiz
-│   ├── main.jsx                 # Ponto de entrada
-│   └── index.css                # Estilos globais
-├── index.html
-├── vite.config.js
-└── package.json
-```
-
-## 📊 Funcionalidades
-
-- ✅ KPIs com indicadores de crescimento
-- ✅ Gráfico de área (Receita x Meta x Despesas)
-- ✅ Gráfico de pizza interativo por categoria
-- ✅ Gráfico de barras por dia da semana
-- ✅ Gráfico radar por região
-- ✅ Tabela de top produtos com ordenação
-- ✅ Filtros de período (1º Sem / 2º Sem / Ano todo)
-- ✅ Layout responsivo (mobile-friendly)
-- ✅ Sidebar com navegação
-- ✅ Tooltips customizados
+💡 Este projeto foi desenvolvido com foco em aprendizado prático na área de análise de dados e visualização, simulando um cenário real de acompanhamento de vendas.
