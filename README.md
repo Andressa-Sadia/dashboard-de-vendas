@@ -13,8 +13,8 @@ Dashboard de vendas moderno e responsivo construído com React + Recharts.
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/sales-dashboard.git
-cd sales-dashboard
+git clone https://github.com/Andressa-Sadia/dashboard-de-vendas.git
+cd dashboard-de-vendas
 
 # 2. Instale as dependências
 npm install
@@ -31,7 +31,7 @@ Acesse: [http://localhost:5173](http://localhost:5173)
 ## 📁 Estrutura do Projeto
 
 ```
-sales-dashboard/
+dashboard-de-vendas/
 ├── src/
 │   ├── components/
 │   │   ├── KpiCard.jsx          # Cards de métricas
