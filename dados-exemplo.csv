@@ -1,0 +1,11 @@
+data,pedido,cliente,regiao,vendedor,categoria,valor
+2026-01-05,PED-1001,Mercadinho Sol,Nordeste,Andressa,Software,4200
+2026-01-09,PED-1002,Loja Nobre,Sudeste,Carlos,Serviços,2800
+2026-01-13,PED-1003,Atacado Lima,Sul,Bianca,Software,5100
+2026-01-17,PED-1004,Distribuidora Real,Nordeste,Andressa,Consultoria,3900
+2026-02-02,PED-1005,Mercado Ponto Certo,Centro-Oeste,Diego,Software,4700
+2026-02-07,PED-1006,Grupo Atlas,Sudeste,Carlos,Consultoria,6500
+2026-02-11,PED-1007,Rede União,Nordeste,Andressa,Serviços,3100
+2026-02-19,PED-1008,Comercial Prado,Sul,Bianca,Software,5800
+2026-03-03,PED-1009,Armazém Azul,Norte,Diego,Software,4500
+2026-03-08,PED-1010,Grupo Nativa,Nordeste,Andressa,Consultoria,7300
